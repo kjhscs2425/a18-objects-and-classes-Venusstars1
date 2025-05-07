@@ -22,11 +22,10 @@ class Dog:
     def __init__(self, name):
         self.name = name
     def __str__(self):
-      return f"{self.name} is a dog"
-
-# Make a new object of class `Dog` and print it out
-#### YOUR CODE HERE ####
-bartholomew = Dog("Bartholomew")
-print(bartholomew)
+        return f"<This is a dog named {self.name}> He loves to bark"
+    def speak(self):
+        print(f"{self.name} says bark bark!!")
+max = Dog("max")
+print(max)
 
 

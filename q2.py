@@ -21,11 +21,9 @@ class Dog:
   def __init__(self, name):
     self.name = name
   def speak(self):
-    print(f"{self.name} says woof")
-
-nessie = Dog("Nessie")
-nessie.speak()
-
+     print(f"{self.name} says woof!! Bark Bark!")
 
 # Make a new object of class `Dog` and call its `speak` method
 #### YOUR CODE HERE ####
+max = Dog("max")
+max.speak()
